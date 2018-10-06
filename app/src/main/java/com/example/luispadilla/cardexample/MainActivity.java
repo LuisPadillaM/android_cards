@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
         Contact contact = new Contact("Emma Wilson", "23 years old", R.drawable.avatar);
         contactName.setText(contact.getName());
         contactAge.setText(contact.getAge());
-        // contactPhoto.setImageResource(contact.getPhotoId());
+        contactPhoto.setImageResource(contact.getPhotoId());
     }
 }
